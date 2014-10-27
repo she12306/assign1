@@ -66,9 +66,9 @@ void draw() {
       // stop rolling
       // -------------------------------------------------
       // put your code inside here
-      int henry = int(random(5));
-      int jerry = int(random(5));
-      int mary = int(random(5));
+      int henry = int(random(6));
+      int jerry = int(random(6));
+      int mary = int(random(6));
       machine.setSlotFruit(0,jerry);
       machine.setSlotFruit(1,mary);
       machine.setSlotFruit(2,henry);
